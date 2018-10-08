@@ -5473,7 +5473,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Work\playground\loopback-test\0.30.0\angular-router-test\client\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! D:\Work\playground\loopback-test\0.30.0\lb4-ng-quickstart\client\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })
