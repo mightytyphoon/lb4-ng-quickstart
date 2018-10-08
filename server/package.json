@@ -55,6 +55,7 @@
   "devDependencies": {
     "@loopback/build": "^0.7.6",
     "@loopback/testlab": "^0.15.1",
-    "@types/node": "^10.11.2"
+    "@types/node": "^10.11.2",
+    "nodemon": "^1.18.4"
   }
 }
