@@ -12,7 +12,7 @@
     "client:dev": "cd client && start /min ng serve",
     "predev": "npm run client:dev",
     "dev": "cd server && npm run clean && mkdir dist && start /min npm run build:watch",
-    "postdev": "cd server && nodemon --watch dist"
+    "postdev": "cd server && start /min nodemon --watch dist"
   },
   "author": "",
   "license": "ISC",

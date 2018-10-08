@@ -256,7 +256,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>I am the contact page /contact</h1>\r\n"
+module.exports = "<h1>I am the contact page /contact</h1>\r\n<a routerLink=\"/\">go back to home page</a>\r\n"
 
 /***/ }),
 

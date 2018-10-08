@@ -38,3 +38,20 @@ await app.static('/public' , './public');
 9. index.html is erased and replaced by index.html from Angular, so no need to change the basic configuration of loopback 4
 10. we also keep in client/src/index.html the line `<base href="/">`
 11. now we need to redirect the loading of the angular js files to root/public/*, this is done by adding a `--deploy-url /public/` option to `ng build`
+
+# Serve Angular App with loopback
+
+# Use CDN while serving Angular app on loopback
+
+# Serve Angular App on a separate server than loopback
+
+# Use a CDN while serving Angular app on a separate server
+
+# Build a mobile or desktop client that fetch data from loopback Server
+
+# Use a CDN with a separate mobile or desktop client
+
+# Server side rendering
+https://angular.io/guide/universal
+
+# Use a CDN with the server side rendering

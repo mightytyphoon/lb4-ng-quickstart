@@ -6,6 +6,10 @@ export {ServerApplication};
 export async function main(options: ApplicationConfig = {}) {
   const app = new ServerApplication(options);
   await app.static('/public' , './public');
+  //rewrite unmatched url to index.html
+/*  function redirectUnmatched(req, res) {
+    res.redirect("http://www.mysite.com/");
+  }*/
   await app.boot();
   await app.start();
 

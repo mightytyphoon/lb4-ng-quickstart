@@ -48,4 +48,9 @@ export class PingController {
       headers: Object.assign({}, this.req.headers),
     };
   }
+
+  @get('/***')
+  redirectUnmatched(): object {
+  return {unmatched : 'true'}
+  }
 }
