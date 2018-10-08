@@ -1,8 +1,8 @@
 # Quick Start
 *fast launch*
-1. in cmd `git clone this repo`
-2. in cmd : `cd this repo && npm run install`
-3. this will install client and server, then launch the live dev.
+1. in cmd `git clone https://github.com/mightytyphoon/lb4-ng-quickstart lb4-ng`
+2. in cmd : `cd lb4-ng && npm run install`
+3. this will install client and server, then launch the live dev. (this take a while)
     * angular app will refresh on changes here : http://localhost:4200
     * loopback server will reload on changes in code with nodemon and is alive here : http://localhost:3000
 
@@ -37,4 +37,4 @@ await app.static('/public' , './public');
 ```
 9. index.html is erased and replaced by index.html from Angular, so no need to change the basic configuration of loopback 4
 10. we also keep in client/src/index.html the line `<base href="/">`
-11. now we need to redirect the loading of the angular js files to root/public/*, this is done by adding a --deploy-url option to
+11. now we need to redirect the loading of the angular js files to root/public/*, this is done by adding a `--deploy-url /public/` option to `ng build`
