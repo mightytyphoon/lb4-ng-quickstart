@@ -30,7 +30,7 @@ export class MySequence implements SequenceHandler {
       const result = await this.invoke(route, args);
       this.send(response, result);
     } catch (err) {
-      context.response.sendfile('public/index.html')
+      context.response.sendFile('public/index.html', {root: './'})
       //if starts with /api it's a request to the api with no match, we can throw 404 or redirect
     /*  if(context.request.originalUrl.startsWith('/api' , 0)){
         //this.reject(context, err);
